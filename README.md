@@ -76,7 +76,7 @@ Support for RedHat and Suse is included but has not been tested.
 
 Please open a pull request with any changes or bugfixes.
 
-### overriding / using params.pp
+## Overriding / using params.pp
 
 e.g. puppet/hiera/hieradata/common.yaml
         ...
