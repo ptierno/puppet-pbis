@@ -20,6 +20,8 @@ class pbis (
   $require_membership_of = $pbis::params::require_membership_of,
   $skeleton_dirs         = $pbis::params::skeleton_dirs,
   $user_domain_prefix    = $pbis::params::user_domain_prefix,
+  $nss_enumeration_enabled  = $pbis::params::nss_enumeration_enabled,
+  $cache_expiry             = $pbis::params::cache_expiry,
   $use_repository        = $pbis::params::use_repository,
   ) inherits pbis::params {
 
