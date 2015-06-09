@@ -79,10 +79,12 @@ Please open a pull request with any changes or bugfixes.
 ## Overriding / using params.pp
 
 e.g. puppet/hiera/hieradata/common.yaml
+```
         ...
         pbis::nss_enumeration_enabled: true|false  
         pbis::cache_expiry: '86400'   # 1 day cache expiry
         ...
+```
 
 ## History
 
