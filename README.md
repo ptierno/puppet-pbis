@@ -76,6 +76,14 @@ Support for RedHat and Suse is included but has not been tested.
 
 Please open a pull request with any changes or bugfixes.
 
+### overriding / using params.pp
+
+e.g. puppet/hiera/hieradata/common.yaml
+        ...
+        pbis::nss_enumeration_enabled: true|false  
+        pbis::cache_expiry: '86400'   # 1 day cache expiry
+        ...
+
 ## History
 
 Likewise Open was acquired by BeyondTrust in 2011 and rebranded as PowerBroker Identity Services Open Edition. The project page is at [powerbrokeropen.org](http://www.powerbrokeropen.org).

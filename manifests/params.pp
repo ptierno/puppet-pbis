@@ -22,7 +22,7 @@ class pbis::params {
   $require_membership_of = undef
   $skeleton_dirs         = '/etc/skel'
   $user_domain_prefix    = undef
-  $nss_enumeration_enabled = undef
+  $nss_enumeration_enabled = true
   $cache_expiry          = 14400
 
   if !( $::architecture in ['amd64', 'x86_64', 'i386'] ) {
